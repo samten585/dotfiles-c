@@ -1,0 +1,7 @@
+2026/02/16-14:17:36.322 1815 Reusing MANIFEST /home/samer/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.linkbox.cloud_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/16-14:17:36.323 1815 Recovering log #4
+2026/02/16-14:17:36.323 1815 Reusing old log /home/samer/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.linkbox.cloud_0.indexeddb.leveldb/000004.log 
+2026/02/16-14:17:36.344 1824 Level-0 table #8: started
+2026/02/16-14:17:36.349 1824 Level-0 table #8: 3581 bytes OK
+2026/02/16-14:17:36.358 1824 Delete type=0 #4
+2026/02/16-14:17:36.359 1817 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

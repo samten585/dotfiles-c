@@ -1,0 +1,2 @@
+{"timestamp":7678927,"category":"urlbar","name":"abandonment","extra":{"n_results":"1","available_semantic_sources":"none","glean_timestamp":"1771260810064","groups":"heuristic","n_words":"1","search_engine_default_id":"google-b-d","sap":"urlbar","actions":"none","n_chars":"7","interaction":"pasted","abandonment_type":"blur","results":"search_engine","search_mode":""}}
+{"timestamp":8276681,"category":"doh","name":"state_shutdown","extra":{"value":"null","glean_timestamp":"1771261407818"}}

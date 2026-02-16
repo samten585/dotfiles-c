@@ -1,0 +1,6 @@
+"custom/menu": {
+    "format": "󰍜",
+    "tooltip": false,
+    "on-click": "/home/samer/scripts/menu.sh"
+    },
+

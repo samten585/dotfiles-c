@@ -1,0 +1,47 @@
+{
+   "checksum": "fa8d66e5a9d8213ad3e33d894acfc336",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13415634767996716",
+            "date_last_used": "13415717609142802",
+            "guid": "942698d7-e910-44f6-8558-ee6e29524523",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "المحقق كونان الجزء 11 الحلقة 547 مدبلجة",
+            "type": "url",
+            "url": "https://animezid.cam/play.php?vid=941028fd5"
+         } ],
+         "date_added": "13415631300395591",
+         "date_last_used": "0",
+         "date_modified": "13415634767996716",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13415631300395591",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13415631300395591",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
