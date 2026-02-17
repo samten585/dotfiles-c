@@ -2,8 +2,11 @@
 text/x-csrc=code-oss.desktop
 application/x-shellscript=code-oss.desktop
 text/plain=code-oss.desktop
+application/schema+json=code-oss.desktop
 
 [Added Associations]
 text/x-csrc=com.system76.CosmicEdit.desktop;code-oss.desktop;
 application/x-shellscript=com.system76.CosmicEdit.desktop;code-oss.desktop;
 text/plain=code-oss.desktop;
+application/x-trash=code-oss.desktop;
+application/schema+json=code-oss.desktop;
