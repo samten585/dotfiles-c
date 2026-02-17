@@ -1,2 +1,13 @@
-{"timestamp":7678927,"category":"urlbar","name":"abandonment","extra":{"n_results":"1","available_semantic_sources":"none","glean_timestamp":"1771260810064","groups":"heuristic","n_words":"1","search_engine_default_id":"google-b-d","sap":"urlbar","actions":"none","n_chars":"7","interaction":"pasted","abandonment_type":"blur","results":"search_engine","search_mode":""}}
-{"timestamp":8276681,"category":"doh","name":"state_shutdown","extra":{"value":"null","glean_timestamp":"1771261407818"}}
+{"timestamp":9708532,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","loadfail_reason":"N/A","path_key":"clean","glean_timestamp":"1771345516254"}}
+{"timestamp":9708532,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"can_load":"true","path_key":"clean","loadfail_reason":"N/A","glean_timestamp":"1771345516254"}}
+{"timestamp":9708533,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_reason":"N/A","shutdown_ok":"false","glean_timestamp":"1771345516255"}}
+{"timestamp":9708941,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1771345516663"}}
+{"timestamp":9709208,"category":"nimbus_events","name":"startup_database_consistency","extra":{"trigger":"startup","primary":"database","db_active_count":"28","store_active_count":"28","glean_timestamp":"1771345516930","total_store_count":"29","total_db_count":"29"}}
+{"timestamp":9709287,"category":"jsonfile","name":"load_autofillprofiles","extra":{"glean_timestamp":"1771345517009","value":"error_notfounderror"}}
+{"timestamp":9709334,"category":"doh","name":"state_rollback","extra":{"glean_timestamp":"1771345517056","value":"null"}}
+{"timestamp":9709647,"category":"containers","name":"container_profile_loaded","extra":{"containers":"4","glean_timestamp":"1771345517370"}}
+{"timestamp":9709704,"category":"upgrade_dialog","name":"trigger_reason","extra":{"value":"not-major","glean_timestamp":"1771345517426"}}
+{"timestamp":9710020,"category":"normandy","name":"enroll_failed_nimbus_experiment","extra":{"value":"relay-integration-into-firefox-release-for-all-fxa-users","glean_timestamp":"1771345517742","reason":"feature-conflict"}}
+{"timestamp":9710020,"category":"nimbus_events","name":"enroll_failed","extra":{"glean_timestamp":"1771345517742","experiment":"relay-integration-into-firefox-release-for-all-fxa-users","reason":"feature-conflict"}}
+{"timestamp":9710236,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1771345517958"}}
+{"timestamp":9710925,"category":"nimbus_events","name":"database_write","extra":{"glean_timestamp":"1771345518647","success":"true"}}

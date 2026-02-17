@@ -1,0 +1,11 @@
+@define-color background {{ base16.base00 }};
+@define-color foreground {{ base16.base05 }};
+
+@define-color color0 {{ base16.base00 }};
+@define-color color1 {{ base16.base08 }};
+@define-color color2 {{ base16.base0B }};
+@define-color color3 {{ base16.base0A }};
+@define-color color4 {{ base16.base0D }};
+@define-color color5 {{ base16.base0E }};
+@define-color color6 {{ base16.base0C }};
+@define-color color7 {{ base16.base05 }};

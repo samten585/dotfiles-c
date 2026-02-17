@@ -4,10 +4,14 @@
     "telemetry.devDeviceId": "db55ed16-6617-42b1-8b63-ec008e00693c",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/samer/dotfiles-c"
+            }
+        ],
         "emptyWindows": [
             {
-                "backupFolder": "1771261522672"
+                "backupFolder": "1771345030939"
             }
         ]
     },
@@ -16,10 +20,12 @@
         "workspaces": {
             "file:///home/samer/.config/waybar": "__default__profile__",
             "file:///home/samer/.config/hypr": "__default__profile__",
-            "file:///home/samer/.config/alacritty": "__default__profile__"
+            "file:///home/samer/.config/alacritty": "__default__profile__",
+            "file:///home/samer/.config/kitty": "__default__profile__",
+            "file:///home/samer/dotfiles-c": "__default__profile__"
         },
         "emptyWindows": {
-            "1771261522672": "__default__profile__"
+            "1771345030939": "__default__profile__"
         }
     },
     "theme": "vs-dark",
@@ -46,15 +52,16 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
-            "auxiliaryBarWidth": 0,
+            "sideBarWidth": 235,
+            "auxiliaryBarWidth": 235,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/samer/.config/Code - OSS/Backups/1771261522672",
+            "folder": "file:///home/samer/dotfiles-c",
+            "backupPath": "/home/samer/.config/Code - OSS/Backups/927631b9f1375fc2bdf98613172322ed",
             "uiState": {
                 "mode": 0,
                 "x": 0,
@@ -79,6 +86,14 @@
                     "auxiliaryBarVisible": true
                 },
                 "8ffb86d23643312d76f646101d05a17c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "5bea2a94750d27f780cd1cdc27a51bbc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "17f2f78360e7fffaaff87fa96f66007f": {
                     "sideBarVisible": true,
                     "auxiliaryBarVisible": true
                 }

@@ -1,0 +1,4 @@
+2026-02-17 18:17:14.976 [info] Log level: Info
+2026-02-17 18:18:39.680 [info] Log level: Info
+2026-02-17 18:18:50.695 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-02-17 18:18:56.273 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for samten585/dotfiles-c: Error: No GitHub authentication session available.
