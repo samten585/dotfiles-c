@@ -1,6 +1,0 @@
-@define-color background {{ background }};
-@define-color foreground {{ on_background }};
-
-@define-color primary {{ primary }};
-@define-color secondary {{ secondary }};
-@define-color error {{ error }};
