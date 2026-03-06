@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+      "id": "prompt_text",
+      "type": "PromptText",
+      "name": "Prompt Text",
+      "params": {
+        "text": "A futuristic city at sunset, cinematic lighting"
+      },
+      "outputs": ["clip_encode"]
+    },
+    {
+      "id": "clip_encode",
+      "type": "CLIPTextEncodeFlux",
+      "name": "CLIPTextEncodeFlux (T5XXL)",
+      "params": {
+        "text_encoder_path": "models/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors"
+      },
+      "inputs": ["clip_encode"],
+      "outputs": ["conditioning"]
+    },
+    {
+      "id": "load_diffusion",
+      "type": "LoadDiffusionModelFlux1",
+      "name": "Load FLUX1-dev Model",
+      "params": {
+        "model_path": "models/diffusion_models/flux1-dev-fp8.safetensors"
+      },
+      "outputs": ["model_latent"]
+    },
+    {
+      "id": "lora_loader",
+      "type": "FLUX1LoRALoader",
+      "name": "LoRA Loader",
+      "params": {
+        "lora_path": "models/lora/your_lora_flux1.safetensors",
+        "scale": 0.75
+      },
+      "inputs": ["model_latent"],
+      "outputs": ["model_latent_lora"]
+    },
+    {
+      "id": "ksampler",
+      "type": "KSamplerFlux1",
+      "name": "Flux KSampler",
+      "params": {
+        "steps": 30,
+        "cfg_scale": 7.5,
+        "seed": -1
+      },
+      "inputs": ["model_latent_lora", "conditioning"],
+      "outputs": ["latent_output"]
+    },
+    {
+      "id": "vae_decode",
+      "type": "VAEDecode",
+      "name": "VAE Decode",
+      "params": {
+        "vae_path": "models/vae/ae.safetensors"
+      },
+      "inputs": ["latent_output"],
+      "outputs": ["image_output"]
+    },
+    {
+      "id": "image_output",
+      "type": "ImageOutput",
+      "name": "Image Output",
+      "inputs": ["latent_output"]
+    }
+  ]
+}

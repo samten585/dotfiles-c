@@ -1,13 +1,1 @@
-{"timestamp":16392823,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"loadfail_reason":"N/A","glean_timestamp":"1771398078469","can_load":"true","path_key":"clean"}}
-{"timestamp":16392823,"category":"session_restore","name":"backup_can_be_loaded_session_file","extra":{"path_key":"clean","can_load":"true","glean_timestamp":"1771398078469","loadfail_reason":"N/A"}}
-{"timestamp":16392824,"category":"session_restore","name":"shutdown_success_session_startup","extra":{"shutdown_reason":"N/A","glean_timestamp":"1771398078470","shutdown_ok":"false"}}
-{"timestamp":16393260,"category":"webcompatreporting","name":"reason_dropdown","extra":{"setting":"required","glean_timestamp":"1771398078906"}}
-{"timestamp":16393557,"category":"nimbus_events","name":"startup_database_consistency","extra":{"total_store_count":"29","trigger":"startup","glean_timestamp":"1771398079203","store_active_count":"28","primary":"database","total_db_count":"29","db_active_count":"28"}}
-{"timestamp":16393650,"category":"jsonfile","name":"load_autofillprofiles","extra":{"value":"error_notfounderror","glean_timestamp":"1771398079296"}}
-{"timestamp":16393703,"category":"doh","name":"state_rollback","extra":{"glean_timestamp":"1771398079350","value":"null"}}
-{"timestamp":16393747,"category":"containers","name":"container_profile_loaded","extra":{"glean_timestamp":"1771398079394","containers":"4"}}
-{"timestamp":16394058,"category":"upgrade_dialog","name":"trigger_reason","extra":{"glean_timestamp":"1771398079704","value":"not-major"}}
-{"timestamp":16394455,"category":"normandy","name":"enroll_failed_nimbus_experiment","extra":{"glean_timestamp":"1771398080101","reason":"feature-conflict","value":"relay-integration-into-firefox-release-for-all-fxa-users"}}
-{"timestamp":16394455,"category":"nimbus_events","name":"enroll_failed","extra":{"reason":"feature-conflict","glean_timestamp":"1771398080101","experiment":"relay-integration-into-firefox-release-for-all-fxa-users"}}
-{"timestamp":16394684,"category":"nimbus_events","name":"is_ready","extra":{"glean_timestamp":"1771398080330"}}
-{"timestamp":17033034,"category":"doh","name":"state_shutdown","extra":{"value":"null","glean_timestamp":"1771398718681"}}
+{"timestamp":96706482,"category":"pictureinpicture","name":"saw_toggle_toggle","extra":{"glean_timestamp":"1772720185422","firstTime":"false"}}

@@ -1,6 +1,5 @@
 # dotfiles
-.config<br>
-packages.txt
+.config
 
-## My minimalist configrations
+## My config file 
 ### Arch Linux - Hyprland

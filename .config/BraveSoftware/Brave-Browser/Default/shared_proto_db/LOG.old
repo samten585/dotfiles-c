@@ -1,3 +1,15 @@
-2026/02/17-17:57:01.797 2b30 Reusing MANIFEST /home/samer/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/MANIFEST-000001
-2026/02/17-17:57:01.797 2b30 Recovering log #3
-2026/02/17-17:57:01.798 2b30 Reusing old log /home/samer/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/000003.log 
+2026/03/03-17:04:22.749 8203a Reusing MANIFEST /home/samer/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/MANIFEST-000001
+2026/03/03-17:04:22.749 8203a Recovering log #47
+2026/03/03-17:04:22.751 8203a Reusing old log /home/samer/.config/BraveSoftware/Brave-Browser/Default/shared_proto_db/000047.log 
+2026/03/03-17:05:22.796 82027 Compacting 1@0 + 1@1 files
+2026/03/03-17:05:22.802 82027 Generated table #49@0: 58 keys, 2298 bytes
+2026/03/03-17:05:22.802 82027 Compacted 1@0 + 1@1 files => 2298 bytes
+2026/03/03-17:05:22.837 82027 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/03-17:05:22.837 82027 Delete type=2 #44
+2026/03/03-17:05:22.837 82027 Delete type=2 #46
+2026/03/03-17:05:41.361 82027 Compacting 1@1 + 1@2 files
+2026/03/03-17:05:41.366 82027 Generated table #50@1: 115 keys, 5099 bytes
+2026/03/03-17:05:41.366 82027 Compacted 1@1 + 1@2 files => 5099 bytes
+2026/03/03-17:05:41.374 82027 compacted to: files[ 0 0 1 0 0 0 0 ]
+2026/03/03-17:05:41.374 82027 Delete type=2 #42
+2026/03/03-17:05:41.374 82027 Delete type=2 #49

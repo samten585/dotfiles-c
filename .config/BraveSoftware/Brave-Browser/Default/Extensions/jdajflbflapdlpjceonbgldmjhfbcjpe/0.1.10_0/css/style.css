@@ -1,0 +1,160 @@
+
+.turbotypelu-btn {
+  margin-left: 10px !important;
+  padding: 0 !important;
+  width: 36px !important;
+  height: 36px !important;
+  border: 0 !important;
+  border-radius: 18px !important;
+  background-image: url("data:image/svg+xml,%3Csvg width='590' height='590' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Crect id='a' x='0' y='0' width='590' height='590' rx='295'/%3E%3C/defs%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cmask id='b' fill='%23fff'%3E%3Cuse xlink:href='%23a'/%3E%3C/mask%3E%3Cuse fill='%232F6A46' xlink:href='%23a'/%3E%3Cg fill='%23FFF' mask='url(%23b)'%3E%3Cpath d='m429.024 144 .386.001h-.04c5.407-.06 10.281 2.306 14.454 5.857a204.804 204.804 0 0 1 6.674 5.936 227.78 227.78 0 0 1 8.17 8.391l4.038 4.038c69.229 78.419 65.334 197.208-8.882 270.924a20.194 20.194 0 0 1-14.004 5.856h-.41a20.19 20.19 0 0 1-17.58-30.527 172.753 172.753 0 0 0 10.757-12 154.574 154.574 0 0 0 38.9-102.818l-.008-.156.008-.154c.015-7.989-.956-16.282-2.746-24.674-7.192-39.175-27.459-73.606-56.004-98.765a20.174 20.174 0 0 1-2.215-19.45A20.194 20.194 0 0 1 429.41 144zm-269.837.091a19.137 19.137 0 0 1 13.848 5.929c7.29 7.336 7.841 18.841 1.652 26.807a179.864 179.864 0 0 0-9.673 9.039c0 .948-.909 1.877-1.878 2.866l-.1.101a66.333 66.333 0 0 0-10.942 11.688l-.928 1.171a162.543 162.543 0 0 0-33.547 93.64l-.014.344a100.963 100.963 0 0 0-.07 3.827v.074a157.446 157.446 0 0 0 18.792 74.605 162.573 162.573 0 0 0 14.839 23.132l.928 1.17a66.333 66.333 0 0 0 10.174 11.036l.767.78a20.532 20.532 0 0 1 1.784 2.05c.124.263.195.526.195.79.348.35.698.7 1.049 1.046 4.68 7.8 3.67 18.06-3.028 24.8a19.137 19.137 0 0 1-27.696 0A197.345 197.345 0 0 1 77 299.305c.245-52.467 23.773-114.426 68.34-149.285a19.137 19.137 0 0 1 13.847-5.929z'/%3E%3Cpath d='M202.81 208.024c8.803-7.238 20.754-7.926 28.676-.01 6.611 6.607 7.708 16.644 3.286 24.388-17.652 13.933-30.155 34.205-33.975 57.572-.693 3.215-1.07 6.307-1.062 9.2l.012.202-.012.2a73.663 73.663 0 0 0 14.197 43.69 92.584 92.584 0 0 0 11.75 14.882c3.314 7.447 1.914 16.483-4.196 22.59-7.922 7.915-20.76 7.91-28.675-.01a116.75 116.75 0 0 1-33.61-81.093c.133-30.639 16.621-69.42 43.61-91.611zm168.736-5.934.416.008a19.601 19.601 0 0 1 13.421 5.906c20.073 17.304 33.217 39.547 39.432 61.66a131.946 131.946 0 0 1 4.174 29.742c-.465 17.506-4.325 34.128-10.936 49.25a114.028 114.028 0 0 1-22.67 32.091 19.601 19.601 0 0 1-13.42 5.906l-.417.007-.417-.008a19.56 19.56 0 0 1-13.381-5.925c-6.1-6.122-7.486-15.165-4.161-22.615a92.632 92.632 0 0 0 11.665-14.769 73.682 73.682 0 0 0 14.237-43.766l-.014-.202.014-.2c.009-2.896-.368-5.99-1.063-9.205-3.812-23.353-16.3-43.614-33.932-57.547-4.427-7.743-3.342-17.779 3.254-24.4a19.56 19.56 0 0 1 13.828-5.934l-.03.001zM277.389 356.503c-5.663 0-10.992 2.331-14.656 6.661-3.663 4.22-5.329 9.881-4.552 15.433l10.108 103.141c1.332 9.548 9.659 16.765 19.207 16.765h13.878c9.548 0 17.875-7.217 19.207-16.765l10.107-103.141c.777-5.552-.888-11.214-4.552-15.433-3.664-4.33-8.993-6.661-14.655-6.661h-34.092zM295.362 335.337c-22.295 0-40.368-18.095-40.368-40.417 0-22.322 18.073-40.417 40.368-40.417 22.294 0 40.367 18.095 40.367 40.417-.025 22.323-18.102 40.409-40.398 40.417h.03z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
+  background-size: 36px !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+  opacity: 0.9 !important;
+  position: relative !important;
+}
+
+.turbotypelu-btn::after {
+  content: "Match Nano Influencer" !important;
+  color: #1F472F !important;
+  background-color: #EDF7F1 !important;
+  border-radius: 8px !important;
+  position: absolute !important;
+  white-space: nowrap !important;
+  top: 20px !important;
+  left: 50% !important;
+  padding: 8px 15px !important;
+  font-size: 16px !important;
+  transform: translateX(-50%) translateY(-40px) scale(0.3) !important;
+  opacity: 0 !important;
+  transition-property: opacity, top, transform !important;
+  transition-duration: 0.3s !important;
+  pointer-events: none !important;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 12px 0px !important;
+}
+
+.turbotypelu-btn:hover {
+  opacity: 1 !important;
+}
+
+.turbotypelu-btn:hover::after {
+  top: 0px !important;
+  opacity: 1 !important;
+  transform: translateX(-50%) translateY(-40px) scale(1.0) !important;
+}
+
+.turbotype-contact {
+  border: 0px;
+}
+
+.turbotype-contact button {
+  color: #333;
+  background-color: #eee;
+  border: 1px solid #eee;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 14px;
+  text-align: center;
+  padding: 6px 10px;
+  margin-right: 8px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.turbotype-contact button:hover {
+  border: 1px solid #3F8D5E;
+  background-color: #3F8D5E;
+  color: #FFF;
+}
+
+.turbotype-contact button.turbotype-marked {
+  color: #999;
+  background-color: #ccc;
+}
+
+.turbotype-contact button.turbotype-marked:hover {
+  background-color: #999;
+  color: #FFF;
+}
+
+.turbotype-contact .turbotype-mail-copy {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23666666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='icon icon-tabler icons-tabler-outline icon-tabler-copy'%3E%3Cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z' /%3E%3Cpath d='M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1' /%3E%3C/svg%3E");
+  margin-left: 8px;
+  border-radius: 3px;
+  transition: transform, background-color 0.2s ease-in-out;;
+}
+
+.turbotype-contact .turbotype-mail-copy:hover {
+  background-color: rgba(255,255,255,0.6);
+}
+
+.turbotype-contact .turbotype-mail-copy:active {
+  background-color: rgba(255,255,255,0.9);
+  transform: scale(1.2);
+}
+
+.turbotype-contact-info {
+  margin: 8px 0 15px 0;
+  color: #666;
+  font-size: 12px;
+}
+
+#turbotype-set-tpl {
+  border: 1px solid #eee;
+  color: #3F8D5E;
+}
+
+#turbotype-set-tpl:hover {
+  color: #FFF;
+}
+
+.turbotype-contact-head {
+  color: #3F8D5E;
+}
+
+.turbotype-contact-warn {
+  color: #900 !important;
+}
+
+.turbotype-contact-warn a {
+  color: #900 !important;
+}
+
+.turbotype-sidebar-outer {
+  z-index: 2147483647 !important;
+  box-sizing: border-box;
+  position: fixed !important;
+  display: block !important;
+  width: 470px !important;
+  height: 98% !important;
+  max-height: 98% !important;
+  top: 1% !important;
+  box-shadow: rgba(0, 0, 0, 0.3) 4px 2px 12px 0px !important;
+  border-width: 1px !important;
+  border-style: solid !important;
+  border-color: rgba(155, 155, 155, 0.18) !important;
+  border-image: initial !important;
+  border-radius: 8px !important;
+  transition: transform 0.5s ease-out 0s !important;
+  right: -470px !important;
+}
+
+.turbotype-sidebar-outer-show {
+  transform: translateX(calc(-470px - 1%)) !important;
+}
+
+.turbotype-em-contact {
+  animation-name: turbotype-em-border-animation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes turbotype-em-border-animation {  
+  0% { border: 2px dotted transparent; }
+  50% { border: 2px dotted #6EBF8E; }
+  100% { border: 2px dotted transparent; }
+}

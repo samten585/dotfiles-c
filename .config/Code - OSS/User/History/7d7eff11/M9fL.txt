@@ -1,0 +1,15 @@
+
+cd terminal-doom/
+zig-out/bin/terminal-doom
+
+====
+
+cd ComfyUI
+source .venv/bin/activate
+python main.py --cpu --force-fp32
+
+====
+
+compgen -c | less
+"show all cammands" 
+

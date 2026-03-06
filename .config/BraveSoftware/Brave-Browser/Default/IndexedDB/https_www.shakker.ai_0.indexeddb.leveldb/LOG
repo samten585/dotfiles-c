@@ -1,0 +1,6 @@
+2026/02/21-15:48:32.141 46bde Creating DB /home/samer/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.shakker.ai_0.indexeddb.leveldb since it was missing.
+2026/02/21-15:48:32.154 46bde Reusing MANIFEST /home/samer/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.shakker.ai_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/21-15:51:06.168 46bee Level-0 table #5: started
+2026/02/21-15:51:06.187 46bee Level-0 table #5: 1269 bytes OK
+2026/02/21-15:51:06.243 46bee Delete type=0 #3
+2026/02/21-15:51:06.243 46bee Manual compaction at level-0 from (begin) .. (end); will stop at (end)

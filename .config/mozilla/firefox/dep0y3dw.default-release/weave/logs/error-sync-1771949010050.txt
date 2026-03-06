@@ -1,0 +1,57 @@
+1771948307913	Sync.LogManager	DEBUG	Flushing file log
+1771948307917	Sync.LogManager	DEBUG	Log cleanup threshold time: 1771084307917
+1771948307926	Sync.LogManager	DEBUG	Done deleting files.
+1771948320995	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1771948321542	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1771948321554	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1771948326030	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: success.login, service: error.sync.failed_partial, sync: success.sync>
+1771948403872	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1771948403921	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1771948408901	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: success.login, service: error.sync.failed_partial, sync: success.sync>
+1771948449173	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1771948449209	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1771948454186	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: success.login, service: error.sync.failed_partial, sync: success.sync>
+1771948502671	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1771948502775	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1771948507673	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: success.login, service: error.sync.failed_partial, sync: success.sync>
+1771948678128	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1771948683138	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: success.login, service: error.sync.failed_partial, sync: success.sync>
+1771948703145	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1771948708200	Sync.Engine.Tabs	INFO	Can't do a quick-sync due to the service status: <Status: login: success.login, service: error.sync.failed_partial, sync: success.sync>
+1771949003989	Sync.Service	DEBUG	User-Agent: Firefox/147.0.4 (Linux x86_64) FxSync/1.149.0.20260216140546.desktop
+1771949003989	Sync.Service	INFO	Starting sync at 2026-02-24 18:03:23 in browser session gZ-YGlXTBkBN
+1771949003993	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1771949004115	Sync.Status	INFO	Resetting Status.
+1771949004115	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => success.status_ok
+1771949004122	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1771949004122	FirefoxAccounts	DEBUG	getOAuthToken enter
+1771949004187	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1771949004187	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1771949004188	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1771949004752	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1771949009723	Sync.Resource	DEBUG	GET fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections
+1771949009725	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections failed with status 503
+1771949009752	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1771949009753	Sync.Resource	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.sys.mjs:220:21) JS Stack trace: _processResponse/<@resource.sys.mjs:220:21
+format@Log.sys.mjs:639:19
+formatText@Log.sys.mjs:568:44
+format@Log.sys.mjs:586:12
+append@Log.sys.mjs:679:37
+append@LogManager.sys.mjs:174:44
+log@Log.sys.mjs:376:16
+error@Log.sys.mjs:384:10
+observe@policies.sys.mjs:902:19
+observe@observers.sys.mjs:131:21
+notify@observers.sys.mjs:83:18
+notify@util.sys.mjs:183:19
+WrappedNotify@util.sys.mjs:193:17
+1771949009769	Sync.Resource	DEBUG	Parse fail: Response body starts: <html>
+<head><title>503 Service Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Se
+1771949009753	Sync.ErrorHandler	ERROR	Sync encountered an error: ({data:"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections", status:503, success:false, headers:{'accept-ranges':"bytes", 'content-length':"162", 'content-type':"text/html", date:"Tue, 24 Feb 2026 16:03:29 GMT", etag:"\"699c0011-a2\"", server:"nginx/1.22.0", via:"1.1 google, 1.1 varnish, 1.1 varnish", 'x-cache':"MISS, MISS", 'x-cache-hits':"0, 0", 'x-firefox-early-data':"accepted", 'x-firefox-spdy':"h2", 'x-served-by':"cache-mrs1050098-MRS, cache-mrs10567-MRS", 'x-timer':"S1771949004.338911,VS0,VE5273"}, get obj() {
+    [native code]
+}})
+1771949009792	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 2488410 ms.
+1771949009792	Sync.SyncScheduler	DEBUG	Next sync in 2488410 ms. (why=client-backoff-schedule)
+1771949010050	Sync.Service	DEBUG	Exception calling anonymous function: {"data":"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections","status":503,"success":false,"headers":{"accept-ranges":"bytes","content-length":"162","content-type":"text/html","date":"Tue, 24 Feb 2026 16:03:29 GMT","etag":"\"699c0011-a2\"","server":"nginx/1.22.0","via":"1.1 google, 1.1 varnish, 1.1 varnish","x-cache":"MISS, MISS","x-cache-hits":"0, 0","x-firefox-early-data":"accepted","x-firefox-spdy":"h2","x-served-by":"cache-mrs1050098-MRS, cache-mrs10567-MRS","x-timer":"S1771949004.338911,VS0,VE5273"}}

@@ -1,0 +1,38 @@
+1771939873149	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1771940473172	Sync.Service	DEBUG	User-Agent: Firefox/147.0.4 (Linux x86_64) FxSync/1.149.0.20260216140546.desktop
+1771940473175	Sync.Service	INFO	Starting sync at 2026-02-24 15:41:13 in browser session gZ-YGlXTBkBN
+1771940473178	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1771940473228	Sync.Status	INFO	Resetting Status.
+1771940473229	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1771940473236	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1771940473237	FirefoxAccounts	DEBUG	getOAuthToken enter
+1771940473248	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1771940473248	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1771940473250	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1771940473644	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1771940478766	Sync.Resource	DEBUG	GET fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections
+1771940478766	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections failed with status 503
+1771940478767	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1771940478781	Sync.Resource	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.sys.mjs:220:21) JS Stack trace: _processResponse/<@resource.sys.mjs:220:21
+format@Log.sys.mjs:639:19
+formatText@Log.sys.mjs:568:44
+format@Log.sys.mjs:586:12
+append@Log.sys.mjs:679:37
+append@LogManager.sys.mjs:174:44
+log@Log.sys.mjs:376:16
+error@Log.sys.mjs:384:10
+observe@policies.sys.mjs:902:19
+observe@observers.sys.mjs:131:21
+notify@observers.sys.mjs:83:18
+notify@util.sys.mjs:183:19
+WrappedNotify@util.sys.mjs:193:17
+1771940478791	Sync.Resource	DEBUG	Parse fail: Response body starts: <html>
+<head><title>503 Service Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Se
+1771940478775	Sync.ErrorHandler	ERROR	Sync encountered an error: ({data:"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections", status:503, success:false, headers:{'accept-ranges':"bytes", 'content-length':"162", 'content-type':"text/html", date:"Tue, 24 Feb 2026 13:41:18 GMT", etag:"\"699b95d8-a2\"", server:"nginx/1.22.0", via:"1.1 google, 1.1 varnish, 1.1 varnish", 'x-cache':"MISS, MISS", 'x-cache-hits':"0, 0", 'x-firefox-early-data':"accepted", 'x-firefox-spdy':"h2", 'x-served-by':"cache-mrs10570-MRS, cache-mrs10570-MRS", 'x-timer':"S1771940473.343166,VS0,VE5295"}, get obj() {
+    [native code]
+}})
+1771940478819	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 1397026 ms.
+1771940478819	Sync.SyncScheduler	DEBUG	Next sync in 1397026 ms. (why=client-backoff-schedule)
+1771940478825	Sync.Service	DEBUG	Exception calling anonymous function: {"data":"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections","status":503,"success":false,"headers":{"accept-ranges":"bytes","content-length":"162","content-type":"text/html","date":"Tue, 24 Feb 2026 13:41:18 GMT","etag":"\"699b95d8-a2\"","server":"nginx/1.22.0","via":"1.1 google, 1.1 varnish, 1.1 varnish","x-cache":"MISS, MISS","x-cache-hits":"0, 0","x-firefox-early-data":"accepted","x-firefox-spdy":"h2","x-served-by":"cache-mrs10570-MRS, cache-mrs10570-MRS","x-timer":"S1771940473.343166,VS0,VE5295"}}

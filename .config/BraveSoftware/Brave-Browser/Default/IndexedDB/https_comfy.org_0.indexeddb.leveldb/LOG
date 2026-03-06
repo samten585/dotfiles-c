@@ -1,0 +1,6 @@
+2026/02/23-23:45:59.297 61a85 Creating DB /home/samer/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_comfy.org_0.indexeddb.leveldb since it was missing.
+2026/02/23-23:45:59.314 61a85 Reusing MANIFEST /home/samer/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_comfy.org_0.indexeddb.leveldb/MANIFEST-000001
+2026/02/23-23:46:03.021 61a92 Level-0 table #5: started
+2026/02/23-23:46:03.235 61a92 Level-0 table #5: 1257 bytes OK
+2026/02/23-23:46:03.255 61a92 Delete type=0 #3
+2026/02/23-23:46:03.255 61a92 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

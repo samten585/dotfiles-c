@@ -4,14 +4,10 @@
     "telemetry.devDeviceId": "db55ed16-6617-42b1-8b63-ec008e00693c",
     "backupWorkspaces": {
         "workspaces": [],
-        "folders": [
-            {
-                "folderUri": "file:///home/samer/.config/hypr"
-            }
-        ],
+        "folders": [],
         "emptyWindows": [
             {
-                "backupFolder": "1771398391670"
+                "backupFolder": "1772718343874"
             }
         ]
     },
@@ -25,7 +21,7 @@
             "file:///home/samer/dotfiles-c": "__default__profile__"
         },
         "emptyWindows": {
-            "1771398391670": "__default__profile__"
+            "1772718343874": "__default__profile__"
         }
     },
     "theme": "vs-dark",
@@ -52,22 +48,21 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
-            "auxiliaryBarWidth": 170,
+            "sideBarWidth": 0,
+            "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/samer/.config/hypr",
-            "backupPath": "/home/samer/.config/Code - OSS/Backups/6974fd6765c43f07d65e19ddb168ab77",
+            "backupPath": "/home/samer/.config/Code - OSS/Backups/1772718343874",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 475,
-                "height": 518
+                "width": 1045,
+                "height": 1036
             }
         },
         "openedWindows": []

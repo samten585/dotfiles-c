@@ -1,0 +1,12 @@
+2026-03-05 15:28:51.334 [info] Extension host with pid 135677 started
+2026-03-05 15:28:51.581 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-03-05 15:28:51.671 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-03-05 15:28:51.935 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-03-05 15:28:51.947 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-03-05 15:28:52.075 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-03-05 15:28:52.376 [info] Eager extensions activated
+2026-03-05 15:28:52.428 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-03-05 15:28:52.432 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-03-05 15:28:52.486 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2026-03-05 15:31:54.522 [info] Extension host terminating: renderer closed the MessagePort
+2026-03-05 15:31:54.544 [info] Extension host with pid 135677 exiting with code 0

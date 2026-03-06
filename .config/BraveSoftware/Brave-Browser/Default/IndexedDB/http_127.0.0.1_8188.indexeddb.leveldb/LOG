@@ -1,0 +1,14 @@
+2026/02/24-13:08:28.872 6a512 Reusing MANIFEST /home/samer/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/http_127.0.0.1_8188.indexeddb.leveldb/MANIFEST-000001
+2026/02/24-13:08:28.873 6a512 Recovering log #411
+2026/02/24-13:08:28.874 6a512 Reusing old log /home/samer/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/http_127.0.0.1_8188.indexeddb.leveldb/000411.log 
+2026/02/24-13:08:28.874 6a512 Delete type=2 #409
+2026/02/24-13:08:28.902 6a522 Level-0 table #416: started
+2026/02/24-13:08:28.907 6a522 Level-0 table #416: 7389 bytes OK
+2026/02/24-13:08:28.916 6a522 Delete type=0 #411
+2026/02/24-13:08:28.916 6a512 Manual compaction at level-0 from '\x00\x81\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x82\x00\x00\x00' @ 0 : 0; will stop at '\x00\x81\x00\x00\x05' @ 7527 : 1
+2026/02/24-13:08:28.916 6a512 Compacting 1@0 + 1@1 files
+2026/02/24-13:08:28.920 6a512 Generated table #417@0: 65 keys, 1471 bytes
+2026/02/24-13:08:28.920 6a512 Compacted 1@0 + 1@1 files => 1471 bytes
+2026/02/24-13:08:28.929 6a512 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/24-13:08:28.929 6a512 Delete type=2 #416
+2026/02/24-13:08:28.929 6a512 Manual compaction at level-0 from '\x00\x81\x00\x00\x05' @ 7527 : 1 .. '\x00\x82\x00\x00\x00' @ 0 : 0; will stop at (end)

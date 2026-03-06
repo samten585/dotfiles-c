@@ -1,0 +1,46 @@
+{
+   "action": {
+      "default_icon": "img/icon.png",
+      "default_popup": "sidebar.html",
+      "default_title": "TurboType"
+   },
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/style.css" ],
+      "js": [ "js/widget.js", "js/jquery-3.6.4.min.js", "js/content-scripts.js" ],
+      "match_about_blank": true,
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": {
+      "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals allow-popups-to-escape-sandbox; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self';"
+   },
+   "description": "Type faster and save time with keyboard shortcuts",
+   "externally_connectable": {
+      "matches": [ "*://*.turbotype.app/*", "https://env.turbotype.app/pro" ]
+   },
+   "homepage_url": "https://turbotype.app",
+   "icons": {
+      "128": "img/icon.png",
+      "16": "img/icon.png",
+      "48": "img/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAofpXWe9gcR1tCq/lzsP0B2FVtiYJO8k+Y/xKGMhXLpve/56sG1sEC66GjS0F2Oiq7uXG+WDikpYjBGFBHaqcp21kbdfgD7yj2FN/AYSf0ez85y9rqkS49TVd1gKxg98K5xJtLcDGGFBEBpl/087kvDXQsQjZFGAoPN5AbjnFi+bPYhsG9X/cyBgmnQVN4C4cx4za5nxJxjAqRp315ew4AYqpvWINAC7cQzE3X1+jNRMf7DtuSY5SA2Fww8ZwlHN2zHXkNzn/CIFrEikiXBpsrgIaC7bOBVIfJMpt2cwFOQPDdzpguFmZYLOtCGUJ8blDK69SElcoXCFIICZR2JldKQIDAQAB",
+   "manifest_version": 3,
+   "name": "TurboType",
+   "permissions": [ "contextMenus", "activeTab", "storage", "unlimitedStorage", "clipboardRead", "clipboardWrite", "offscreen" ],
+   "sandbox": {
+      "pages": [ "html/sandbox.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.10",
+   "web_accessible_resources": [ {
+      "extension_ids": [  ],
+      "matches": [ "*://*/*" ],
+      "resources": [ "sidebar.html", "js/inject.js" ]
+   } ]
+}

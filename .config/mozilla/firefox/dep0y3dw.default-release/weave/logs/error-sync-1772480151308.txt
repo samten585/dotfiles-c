@@ -1,0 +1,25 @@
+1772479551283	Sync.LogManager	DEBUG	Flushing file log
+1772479551284	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1772479551291	Sync.LogManager	DEBUG	Log cleanup threshold time: 1771615551291
+1772479551315	Sync.LogManager	DEBUG	Done deleting files.
+1772480151276	Sync.Service	DEBUG	User-Agent: Firefox/147.0.4 (Linux x86_64) FxSync/1.149.0.20260216140546.desktop
+1772480151276	Sync.Service	INFO	Starting sync at 2026-03-02 21:35:51 in browser session 0ZS2ct1aT-kK
+1772480151276	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1772480151283	Sync.Status	INFO	Resetting Status.
+1772480151283	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1772480151287	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1772480151287	FirefoxAccounts	DEBUG	getOAuthToken enter
+1772480151288	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1772480151288	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1772480151289	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1772480151297	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1772480151299	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1772480151299	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1772480151300	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 478\"  data: no]"}
+1772480151300	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1772480151301	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1772480151301	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1772480151301	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1772480151301	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=reschedule)
+1772480151307	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1772480151307	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent

@@ -1,0 +1,25 @@
+1772480317410	Sync.LogManager	DEBUG	Flushing file log
+1772480317410	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1772480317411	Sync.LogManager	DEBUG	Log cleanup threshold time: 1771616317411
+1772480317414	Sync.LogManager	DEBUG	Done deleting files.
+1772480391133	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1772480391133	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1772480391138	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1772480391144	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1772480391147	Sync.Service	DEBUG	User-Agent: Firefox/147.0.4 (Linux x86_64) FxSync/1.149.0.20260216140546.desktop
+1772480391147	Sync.Service	INFO	Starting sync at 2026-03-02 21:39:51 in browser session 0ZS2ct1aT-kK
+1772480391147	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1772480391153	Sync.Status	INFO	Resetting Status.
+1772480391153	Sync.Status	DEBUG	Status.service: error.sync.failed => success.status_ok
+1772480391154	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1772480391154	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1772480391154	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1772480391294	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1772480391295	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1772480391295	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1772480391295	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1772480391295	Sync.SyncScheduler	DEBUG	Sync error count has exceeded 3; enforcing backoff.
+1772480391295	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 5365128 ms.
+1772480391295	Sync.SyncScheduler	DEBUG	Next sync in 5365128 ms. (why=client-backoff-schedule)
+1772480391300	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1772480391300	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent

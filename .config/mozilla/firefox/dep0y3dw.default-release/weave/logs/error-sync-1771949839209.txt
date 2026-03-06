@@ -1,0 +1,91 @@
+1771949010051	Sync.LogManager	DEBUG	Flushing file log
+1771949010083	Sync.LogManager	DEBUG	Log cleanup threshold time: 1771085010083
+1771949010113	Sync.LogManager	DEBUG	Done deleting files.
+1771949233100	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1771949233570	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1771949238123	Sync.Engine.Tabs	DEBUG	Updating last sync to 1771947890.17
+1771949238130	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1771949238133	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1771949238134	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1771949238135	Sync.Engine.Tabs	DEBUG	Updating last sync to 4102405200000
+1771949238146	Sync.Engine.Tabs	INFO	prepare_local_tabs_for_upload found 2 tabs
+1771949238148	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1771949238155	Sync.Engine.Tabs	INFO	Posting 1 records of 707 bytes with batch=true
+1771949238156	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1771949238156	FirefoxAccounts	DEBUG	getOAuthToken enter
+1771949238157	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1771949238157	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1771949238159	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1771949238162	Sync.Collection	DEBUG	POST Length: 707
+1771949239024	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1771949245853	Sync.Collection	DEBUG	POST fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/storage/tabs?batch=true&commit=true
+1771949245853	Sync.Collection	WARN	POST request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/storage/tabs?batch=true&commit=true failed with status 503
+1771949245854	Sync.Engine.Tabs	DEBUG	Uploading records failed: 503
+1771949245854	Sync.Collection	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.sys.mjs:220:21) JS Stack trace: _processResponse/<@resource.sys.mjs:220:21
+format@Log.sys.mjs:639:19
+formatText@Log.sys.mjs:568:44
+format@Log.sys.mjs:586:12
+append@Log.sys.mjs:679:37
+append@LogManager.sys.mjs:174:44
+log@Log.sys.mjs:376:16
+warn@Log.sys.mjs:387:10
+_doQuickWrite@tabs.sys.mjs:313:17
+1771949245854	Sync.Collection	DEBUG	Parse fail: Response body starts: <html>
+<head><title>503 Service Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Se
+1771949245854	Sync.Engine.Tabs	WARN	quicksync sync failed: ({data:"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/storage/tabs?batch=true&commit=true", status:503, success:false, headers:{'accept-ranges':"bytes", 'content-length':"162", 'content-type':"text/html", date:"Tue, 24 Feb 2026 16:07:25 GMT", etag:"\"699b8391-a2\"", server:"nginx/1.22.0", via:"1.1 google, 1.1 varnish, 1.1 varnish", 'x-cache':"MISS, MISS", 'x-cache-hits':"0, 0", 'x-firefox-spdy':"h2", 'x-served-by':"cache-mrs10577-MRS, cache-mrs10569-MRS", 'x-timer':"S1771949238.294675,VS0,VE7483"}, get obj() {
+    [native code]
+}, failureCode:"error.engine.reason.record_upload_fail"})
+1771949269436	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1771949274438	Sync.Engine.Tabs	DEBUG	Updating last sync to 4102405200000
+1771949274444	Sync.Engine.Tabs	INFO	update_local_state has 2 tab entries
+1771949274445	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1771949274445	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1771949274448	Sync.Engine.Tabs	DEBUG	Updating last sync to 4102405200000
+1771949274459	Sync.Engine.Tabs	INFO	prepare_local_tabs_for_upload found 2 tabs
+1771949274460	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1771949274461	Sync.Engine.Tabs	INFO	Posting 1 records of 683 bytes with batch=true
+1771949274462	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1771949274463	Sync.Collection	DEBUG	POST Length: 683
+1771949277810	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/storage/tabs?batch=true&commit=true
+1771949277811	Sync.Engine.Tabs	INFO	sync uploaded 1 records
+1771949277812	Sync.Engine.Tabs	DEBUG	Updating last sync to 1771949277.36
+1771949277818	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1771949833613	Sync.Service	DEBUG	User-Agent: Firefox/147.0.4 (Linux x86_64) FxSync/1.149.0.20260216140546.desktop
+1771949833613	Sync.Service	INFO	Starting sync at 2026-02-24 18:17:13 in browser session gZ-YGlXTBkBN
+1771949833615	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1771949833668	Sync.Status	INFO	Resetting Status.
+1771949833668	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1771949833672	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1771949833672	FirefoxAccounts	DEBUG	getOAuthToken enter
+1771949833676	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1771949833676	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1771949833677	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1771949834156	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1771949839175	Sync.Resource	DEBUG	GET fail 503 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections
+1771949839175	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections failed with status 503
+1771949839176	Sync.Service	ERROR	Aborting sync: failed to get collections.
+1771949839176	Sync.Resource	WARN	Got exception parsing response body: SyntaxError: JSON.parse: unexpected character at line 1 column 1 of the JSON data(resource://services-sync/resource.sys.mjs:220:21) JS Stack trace: _processResponse/<@resource.sys.mjs:220:21
+format@Log.sys.mjs:639:19
+formatText@Log.sys.mjs:568:44
+format@Log.sys.mjs:586:12
+append@Log.sys.mjs:679:37
+append@LogManager.sys.mjs:174:44
+log@Log.sys.mjs:376:16
+error@Log.sys.mjs:384:10
+observe@policies.sys.mjs:902:19
+observe@observers.sys.mjs:131:21
+notify@observers.sys.mjs:83:18
+notify@util.sys.mjs:183:19
+WrappedNotify@util.sys.mjs:193:17
+1771949839178	Sync.Resource	DEBUG	Parse fail: Response body starts: <html>
+<head><title>503 Service Unavailable</title></head>
+<body bgcolor="white">
+<center><h1>503 Se
+1771949839176	Sync.ErrorHandler	ERROR	Sync encountered an error: ({data:"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n", url:"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections", status:503, success:false, headers:{'accept-ranges':"bytes", 'content-length':"162", 'content-type':"text/html", date:"Tue, 24 Feb 2026 16:17:19 GMT", etag:"\"699b84b0-a2\"", server:"nginx/1.22.0", via:"1.1 google, 1.1 varnish, 1.1 varnish", 'x-cache':"MISS, MISS", 'x-cache-hits':"0, 0", 'x-firefox-early-data':"accepted", 'x-firefox-spdy':"h2", 'x-served-by':"cache-mrs10524-MRS, cache-mrs10550-MRS", 'x-timer':"S1771949834.840021,VS0,VE5274"}, get obj() {
+    [native code]
+}})
+1771949839183	Sync.SyncScheduler	DEBUG	Starting client-initiated backoff. Next sync in 3274827 ms.
+1771949839183	Sync.SyncScheduler	DEBUG	Next sync in 3274827 ms. (why=client-backoff-schedule)
+1771949839206	Sync.Service	DEBUG	Exception calling anonymous function: {"data":"<html>\n<head><title>503 Service Unavailable</title></head>\n<body bgcolor=\"white\">\n<center><h1>503 Service Cloudy: Try again later. </h1></center>\n</body>\n</html>\n","url":"https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/278620036/info/collections","status":503,"success":false,"headers":{"accept-ranges":"bytes","content-length":"162","content-type":"text/html","date":"Tue, 24 Feb 2026 16:17:19 GMT","etag":"\"699b84b0-a2\"","server":"nginx/1.22.0","via":"1.1 google, 1.1 varnish, 1.1 varnish","x-cache":"MISS, MISS","x-cache-hits":"0, 0","x-firefox-early-data":"accepted","x-firefox-spdy":"h2","x-served-by":"cache-mrs10524-MRS, cache-mrs10550-MRS","x-timer":"S1771949834.840021,VS0,VE5274"}}

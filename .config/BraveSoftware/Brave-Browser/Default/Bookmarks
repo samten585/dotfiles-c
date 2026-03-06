@@ -1,10 +1,10 @@
 {
-   "checksum": "76a0ddf6cbc4d7e44f4baf9cc51520c8",
+   "checksum": "749edd722d4ef4c877a26bd85e2aae20",
    "roots": {
       "bookmark_bar": {
          "children": [ {
             "date_added": "13415634767996716",
-            "date_last_used": "13415817446243188",
+            "date_last_used": "13416127309194898",
             "guid": "942698d7-e910-44f6-8558-ee6e29524523",
             "id": "5",
             "meta_info": {
@@ -15,7 +15,7 @@
             "url": "https://animezid.cam/play.php?vid=941028fd5"
          }, {
             "date_added": "13415876657227316",
-            "date_last_used": "0",
+            "date_last_used": "13416088011551995",
             "guid": "672ab82d-45b7-4224-b412-8e94140a7f75",
             "id": "9",
             "meta_info": {
@@ -24,10 +24,21 @@
             "name": "المحقق كونان الجزء الخامس والعشرون مدبلج الحلقة 1125 - سبيس باور فان",
             "type": "url",
             "url": "https://spacepowerfan.com/watch/%d8%a7%d9%84%d9%85%d8%ad%d9%82%d9%82-%d9%83%d9%88%d9%86%d8%a7%d9%86-%d8%a7%d9%84%d8%ac%d8%b2%d8%a1-%d8%a7%d9%84%d8%ae%d8%a7%d9%85%d8%b3-%d9%88%d8%a7%d9%84%d8%b9%d8%b4%d8%b1%d9%88%d9%86-%d9%85%d8%af-25/"
+         }, {
+            "date_added": "13416359944198523",
+            "date_last_used": "0",
+            "guid": "b88309d0-11f6-4228-a17b-206c2dfa4f9f",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Z Image Turbo - a Hugging Face Space by mrfakename",
+            "type": "url",
+            "url": "https://huggingface.co/spaces/mrfakename/Z-Image-Turbo"
          } ],
          "date_added": "13415631300395591",
          "date_last_used": "0",
-         "date_modified": "13415876657227316",
+         "date_modified": "13416359944198523",
          "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
          "id": "1",
          "name": "Bookmarks",
